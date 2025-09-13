@@ -186,7 +186,7 @@ define HAL_OSD_TYPE_DEFAULT 1
 # Font for the osd
 ROMFS_WILDCARD libraries/AP_OSD/fonts/font*.bin
 
-DMA_PRIORITY TIM2* TIM3*
+DMA_PRIORITY TIM8* TIM2* TIM3*
 
 # minimal drivers to reduce flash usage
 include ../include/minimize_fpv_osd.inc
