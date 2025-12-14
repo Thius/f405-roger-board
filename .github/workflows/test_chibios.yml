@@ -139,6 +139,15 @@ jobs:
       matrix:
         config: [
             MambaF405v2,
+            MambaF405v2-bootloader,
+            periph-build,
+            iofirmware,
+            revo-bootloader,
+            revo-mini,
+            configure-all,
+            build-options-defaults-test,
+            signing,
+            SOHW,
             new-check,
         ]
         toolchain: [
