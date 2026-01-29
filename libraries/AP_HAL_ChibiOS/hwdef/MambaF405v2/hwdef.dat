@@ -47,7 +47,7 @@ define DEFAULT_SERIAL1_PROTOCOL SerialProtocol_RCIN
 
 define DEFAULT_SERIAL2_PROTOCOL SerialProtocol_None
 
-# USART3 (VTX)
+# USART3 (Telemetry on Thius Revision)
 PC10 USART3_TX USART3
 PC11 USART3_RX USART3
 define DEFAULT_SERIAL3_PROTOCOL SerialProtocol_Tramp
